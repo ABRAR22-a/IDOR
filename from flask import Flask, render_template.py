@@ -2,7 +2,7 @@ from flask import Flask, render_template_string, request, jsonify
 
 app = Flask(__name__)
 
-# بيانات وهمية
+
 users = {
     "1": {"name": "IT", "email": "it@email.com"},
     "2": {"name": "Sara", "email": "sara@email.com"},
@@ -11,7 +11,7 @@ users = {
 
 flag = "CTF{IDOR_is_fun}"
 
-# الصفحة الرئيسية
+
 @app.route('/')
 def home():
     html = """
@@ -84,7 +84,7 @@ p {
 </div>
 
 <div class="footer">
-    Made with 💻 by Abrar
+    Made with 💻 by @_secit
 </div>
 
 <script>
