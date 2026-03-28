@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # بيانات وهمية
 users = {
-    "1": {"name": "Abrar", "email": "abrar@email.com"},
+    "1": {"name": "IT", "email": "it@email.com"},
     "2": {"name": "Sara", "email": "sara@email.com"},
     "3": {"name": "Nora", "email": "nora@email.com"}
 }
