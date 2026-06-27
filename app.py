@@ -75,8 +75,8 @@ p {
 <body>
 
 <div class="container">
-    <h1>🔐 IDOR Challenge</h1>
-    <p>Think like a hacker... find the hidden flag 👀</p>
+    <h1> IDOR Challenge</h1>
+    <p>Think like a hacker... find the hidden flag </p>
     <p>Hint: Open DevTools → Network tab</p>
 
     <button class="button" onclick="getProfile(1)">View Profile 1</button>
@@ -84,7 +84,7 @@ p {
 </div>
 
 <div class="footer">
-    Made with 💻 by @_secit
+    Made  by @_secit
 </div>
 
 <script>
